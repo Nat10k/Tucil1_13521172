@@ -93,7 +93,7 @@ vector<array<Card,4>> permuteCard(Card hand[], int *cardPermSize) {
 }
 
 vector<array<int,3>> permuteOp() {
-    /* Mengembalikan vektor berisi semua permutasi integer */
+    /* Mengembalikan vektor berisi semua permutasi integer representasi operator */
     vector<array<int,3>> opPermutation;
 
     for (int i=1; i<5; i++) { // Loop variasi operator pertama
